@@ -40,4 +40,9 @@ public class Bloc {
 
     @OneToMany(mappedBy = "bloc", cascade = CascadeType.ALL)
     Set<Chambre> chambres;
+
+    public void setId(Long id) {
+        this.idBloc = id;
+    }
+
 }

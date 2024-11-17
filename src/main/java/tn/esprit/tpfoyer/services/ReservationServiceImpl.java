@@ -36,4 +36,13 @@ public class ReservationServiceImpl implements IReservationService{
     public List<Reservation> readAll() {
         return reservationRepository.findAll();
     }
+//    @Override
+//    public List<Reservation> findReservationsWithChambreNumGreaterThanEqual(int numChambre) {
+//
+//        if (numChambre >= 10) {
+//            return reservationRepository.findByChambreNumChambreGreaterThanEqual(numChambre);
+//        } else {
+//            return List.of();
+//        }
+//    }
 }

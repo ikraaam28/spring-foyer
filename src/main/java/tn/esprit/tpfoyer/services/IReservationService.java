@@ -14,4 +14,6 @@ public interface IReservationService {
     Reservation readById(int id);
 
     List<Reservation> readAll();
+  //  List<Reservation> findReservationsWithChambreNumGreaterThanEqual(int numChambre);
+
 }

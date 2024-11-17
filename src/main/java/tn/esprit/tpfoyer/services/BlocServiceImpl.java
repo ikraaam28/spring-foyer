@@ -51,8 +51,5 @@ public class BlocServiceImpl implements IBlocService {
         return blocRepository.findAll();
     }
 
-    @Override
-    public List<Bloc> findByUniversite(Universite universite) {
-        return blocRepository.findByFoyerUniversite(universite);
-    }
+
 }

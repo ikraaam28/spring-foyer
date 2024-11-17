@@ -17,5 +17,4 @@ public interface IBlocService {
     Bloc readById(Long id);
 
     List<Bloc> readAll();
-    List<Bloc> findByUniversite(Universite universite);
 }
